@@ -1,0 +1,10 @@
+
+fastapi
+uvicorn
+pydantic        
+python-jose[cryptography]
+redis
+sqlalchemy[asyncio] 
+asyncpg
+scikit-learn    
+celery[redis]
