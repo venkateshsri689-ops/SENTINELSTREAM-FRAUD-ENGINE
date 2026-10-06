@@ -15,7 +15,8 @@ ml_engine_instance = MLEngine()
             raise HTTPException(status_code=409, detail="Duplicate transaction")
          rule_risk,rules=rule_engine.evaluate_transaction(transaction_data)
          ml_risk,ml_score=ml_engine_instance.evaluate_transaction(transaction_data)     
-         
+       Status a score in the world (rule_inthe ml am3 print to on the transfer 
+
          final_risk=max(rule_risk,ml_risk)
         status= APPROVE if not final_risk else REJECT
             final_risk = rule_risk or (ml_score > Settings().ML_THRESHOLD)
