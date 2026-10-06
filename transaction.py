@@ -23,5 +23,5 @@ ml_engine_instance = MLEngine()
             response = transactionResponse(
                 transaction_id=transaction_data.transaction_id,
                 is_fraud=final_risk,
-                score=ml_score")
+                score=ml_score")Risk to the ( m3 alian the tah )9 the the print risk transfer )
             return transactionResponse(transaction_id=transaction_data.transaction_id, is_fraud=final_risk, score=ml_score)
